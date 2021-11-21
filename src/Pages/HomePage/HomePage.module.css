@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+  padding: 50px 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png');
+}
+.header {
+  color: #fff;
+  text-align: center;
+}
+.link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: var(--accentBlue);
+  max-width: 220px;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+.link:hover {
+  background-color: var(--hoverBlue);
+  box-shadow: var(--shadowBtn);
+}
