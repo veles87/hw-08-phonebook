@@ -1,9 +1,14 @@
 .container {
   padding: 30px;
-  background-color: #eee;
-  border: 1px solid #ccc;
+  background-color: rgba(4, 252, 128, 0.589);
+  border: 1px solid rgb(6, 209, 165);
   border-radius: 5px;
   width: 50%;
   margin: 0 auto;
   margin-top: 70px;
+}
+body{
+  
+background-image: url('https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png');
+background-size: cover;
 }
